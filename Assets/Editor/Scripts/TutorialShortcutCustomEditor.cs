@@ -2,7 +2,7 @@
 using UnityEditorInternal;
 using UnityEngine;
 
-//[CustomEditor(typeof(TutorialShortcutData))]
+[CustomEditor(typeof(TutorialShortcutData))]
 public class TutorialShortcutCustomEditor : Editor
 {
     private SerializedProperty m_shortcutData;

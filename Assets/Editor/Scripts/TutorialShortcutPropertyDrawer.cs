@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-//[CustomPropertyDrawer(typeof(TutorialShortcutData.Binding))]
+[CustomPropertyDrawer(typeof(TutorialShortcutData.Binding))]
 public class TutorialShortcutPropertyDrawer : PropertyDrawer
 {
     private static readonly int ShorcutScannerHash = "ShorcutScanner".GetHashCode();
